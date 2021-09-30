@@ -1,0 +1,255 @@
+/* &display=swap&subset=cyrillic-ext */
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+span {
+	background-color: rgb(233, 236, 15);
+}
+
+.border .inline {
+	border: 5px solid rgb(9, 213, 240);
+	display: inline;
+}
+
+.border .block {
+	border: 5px dotted rgb(0, 0, 0);
+	margin: 20px;
+	max-width: 300px;
+}
+
+.border .inline-block {
+	color: rgb(243, 99, 74);
+	border: 5px dashed;
+	margin: 20px;
+	max-width: 300px;
+}
+
+.border .transparent {
+	border: 5px dotted transparent;
+	margin: 20px;
+	max-width: 300px;
+}
+
+.border .border-left {
+	border: 5px dotted rgb(0, 0, 0);
+	border-left: none;
+	margin: 20px;
+	max-width: 300px;
+}
+
+.title {
+	margin: 0 0 20px 0;
+	font-size: 40px;
+}
+
+.outline .inline {
+	outline: 5px solid rgb(9, 213, 240);
+	display: inline;
+}
+
+.outline .block {
+	outline: 5px dotted rgb(0, 0, 0);
+	margin: 20px;
+	max-width: 300px;
+}
+
+.outline .inline-block {
+	color: rgb(243, 99, 74);
+	outline: 5px dashed;
+	margin: 20px;
+	max-width: 300px;
+}
+
+.border-radius .inline {
+	border: 5px solid rgb(9, 213, 240);
+	border-radius: 50%;
+	display: inline;
+}
+
+.border-radius .block {
+	border: 5px dotted rgb(0, 0, 0);
+	border-radius: 30px;
+	overflow: hidden;
+	margin: 20px;
+	max-width: 300px;
+}
+
+.border-radius .inline-block {
+	color: rgb(243, 99, 74);
+	border: 5px dashed;
+	border-radius: 30px;
+	overflow: hidden;
+	margin: 20px;
+	max-width: 300px;
+}
+
+.border-radius .ciracle {
+	border: 5px dotted rgb(0, 0, 0);
+	border-radius: 50%;
+	text-align: center;
+	overflow: auto;
+	margin: 20px;
+	width: 300px;
+	height: 300px;
+}
+
+.border-radius .fancy {
+	background-color: rgb(62, 175, 77);
+	width: 400px;
+	height: 400px;
+	border-radius: 39% 61% 70% 30% / 100% 52% 48% 0%;
+	box-shadow: inset 30px 10px 60px 50px rgb(147, 196, 151), inset -20px -5px 15px 40px #000000;
+}
+
+.box-shadow .inline {
+	border: 5px solid rgb(9, 213, 240);
+	background-color: rgb(14, 240, 33);
+	box-shadow: 10px 10px 10px 10px rgb(14, 240, 33);
+	display: inline;
+}
+
+.box-shadow .block {
+	border: 5px dotted rgb(0, 0, 0);
+	box-shadow: -10px 10px 10px 10px rgb(247, 95, 7);
+	margin: 50px;
+	max-width: 300px;
+}
+
+.box-shadow .inline-block {
+	color: rgb(243, 99, 74);
+	border: 5px dashed;
+	box-shadow: 10px -10px 10px 10px rgb(247, 95, 7), -10px 10px 10px 10px rgb(11, 7, 247);
+	margin: 50px;
+	max-width: 300px;
+}
+
+.opacity .inline {
+	border: 5px solid rgb(9, 213, 240);
+	background-color: rgb(14, 240, 33);
+	opacity: 0.5;
+	display: inline;
+}
+
+.opacity .block {
+	background-color: rgb(14, 37, 240);
+	border: 5px dotted rgb(0, 0, 0);
+	margin: 50px;
+	opacity: 0.5;
+	max-width: 300px;
+}
+
+.opacity .inline-block {
+	color: rgb(243, 99, 74);
+	border: 5px dashed;
+	opacity: 0.5;
+	margin: 50px;
+	max-width: 300px;
+}
+
+.visibility .inline {
+	border: 5px solid rgb(9, 213, 240);
+	background-color: rgb(14, 240, 33);
+	visibility: hidden;
+	display: inline;
+}
+
+.visibility .block {
+	background-color: rgb(14, 37, 240);
+	border: 5px dotted rgb(0, 0, 0);
+	visibility: hidden;
+	margin: 50px;
+	max-width: 300px;
+}
+
+.visibility .inline-block {
+	color: rgb(243, 99, 74);
+	border: 5px dashed;
+	visibility: hidden;
+	margin: 50px;
+	max-width: 300px;
+}
+
+.block1 .item {
+	width: 200px;
+	height: 200px;
+	background-color: rgb(8, 233, 38);
+	border-radius: 50%;
+}
+
+.block2 .item {
+	opacity: 0.5;
+}
+
+.block2 .item p {
+	border: 2px solid #000000;
+	max-width: 300px;
+	display: inline-block;
+}
+
+.block3 .item {
+	display: block;
+	border: 2px solid #000000;
+}
+
+.block4 .item {
+	width: 200px;
+	height: 200px;
+	margin: 20px;
+	background-color: rgb(8, 233, 38);
+	border-top: 2px solid #000000;
+	border-bottom: 5px dotted rgb(241, 11, 11);
+	border-left: 8px dashed rgb(201, 235, 11);
+	border-right: 15px double rgb(50, 12, 219);
+}
+
+.block5 a {
+	font-size: 30px;
+	display: inline-block;
+	margin: 20px;
+	border: 3px solid #000000;
+	box-shadow: 5px -2px 10px 10px;
+}
